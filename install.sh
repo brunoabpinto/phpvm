@@ -15,6 +15,5 @@ elif [ -f "$HOME/.bashrc" ]; then
         echo 'PHPVM already installed in .zshrc. Skipping'
     fi
 else
-    cd -
     echo 'Please install zshell or bash to run PHPVM'
 fi
