@@ -13,7 +13,7 @@ cd ~/ && git clone https://github.com/brunoabpinto/phpvm && cd phpvm && ./instal
 
 ## Example commands:
 
-#### List PHP installed versions
+#### List installed PHP versions
 ```bash
 $ phpvm list
 
@@ -40,7 +40,7 @@ $ phpvm default 8
 ```
 
 #### Install and remove PHP versions
-##### uses homebrew under the hood
+##### Uses homebrew under the hood
 
 #### Install
 ```bash
