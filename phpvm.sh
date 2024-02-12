@@ -1,11 +1,17 @@
+
 function phpvm()
-    if [[ $1 == "use" ]]; then
+    if [[ $1 == "install" ]]; then
+        python3 ~/Projects/phpvm/version_installer.py install
+
+    elif [[ $1 == "remove" ]]; then
+        python3 ~/Projects/phpvm/version_installer.py remove
+
+    elif [[ $1 == "use" ]]; then
         for VERSION in /opt/homebrew/opt/php@$2*; do
             export PATH="$VERSION/bin:$PATH"
             break
         ;done
         php -v
-
 
     elif [[ $1 == "default" ]]; then
         for VERSION in /opt/homebrew/opt/php@$2*; do
