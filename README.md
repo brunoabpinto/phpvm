@@ -3,6 +3,11 @@
 Assumes you have your PHP versions installed with homebrew on ```/opt/homebrew/opt/php@*```.
 Inspired by NVM.
 
+## Requirements
+
+ - zshell or bash
+ - homebrew
+
 ## Install
 
 Just paste this command in your terminal and you're ready to go
