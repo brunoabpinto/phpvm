@@ -3,9 +3,15 @@
 Assumes you have your PHP versions installed with homebrew on ```/opt/homebrew/opt/php@*```.
 Inspired by NVM.
 
+## Install
+
+Just paste this command in your terminal and you're ready to go
+
+```bash
+cd  ~/  &&  wget  https://raw.githubusercontent.com/brunoabpinto/phpvm/main/phpvm.sh  &&  echo  '\n\n#PHPVM source\nif [[ -r "$HOME/phpvm.sh" ]];then\n\tsource "$HOME/phpvm.sh"\nfi'  >>  .zshrc  &&  zsh
+```
+
 ## Example commands:
-
-
 
 #### List PHP installed versions
 ```bash
