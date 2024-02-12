@@ -8,7 +8,7 @@ Inspired by NVM.
 Just paste this command in your terminal and you're ready to go
 
 ```bash
-cd  ~/  &&  wget  https://raw.githubusercontent.com/brunoabpinto/phpvm/main/phpvm.sh  &&  echo  '\n\n#PHPVM source\nif [[ -r "$HOME/phpvm.sh" ]];then\n\tsource "$HOME/phpvm.sh"\nfi'  >>  .zshrc  &&  zsh
+cd ~/ && git clone https://github.com/brunoabpinto/phpvm && cd phpvm && ./install.sh
 ```
 
 ## Example commands:
