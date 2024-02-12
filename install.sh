@@ -1,5 +1,3 @@
-#!/bin/bash
-
 if [ -f "$HOME/.zshrc" ]; then
     echo  "\n\n#PHPVM source\nif [[ -r \"$HOME/phpvm/phpvm.sh\" ]];then\n\tsource \"$HOME/phpvm/phpvm.sh\"\nfi"  >>  $HOME/.zshrc
     echo 'PHPVM installed in zshell. Reloading shell'
