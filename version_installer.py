@@ -41,7 +41,6 @@ try:
     elif sys.argv[1] == 'remove':
         versions = subprocess.check_output("brew list", shell=True)
         options = [x for x in versions.decode('utf-8').split("\n") if 'php' in x and x != '']
-        print(options)
         choice = curses.wrapper(character, options)
         print("Uninstalling {0}".format(choice))
         subprocess.call("brew uninstall {0} && zsh".format(choice), shell=True)
