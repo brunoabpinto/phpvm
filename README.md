@@ -38,3 +38,43 @@ Zend Engine v4.1.27, Copyright (c) Zend Technologies
 ```bash
 $ phpvm default 8
 ```
+
+#### Install and remove PHP versions
+##### uses homebrew under the hood
+
+#### Install
+```bash
+$ phpvm install
+
+Choose version
+
+1. php@8.0
+2. php@8.1
+3. php@8.2
+4. php@8.3
+5. shivammathur/php/php@5.6
+6. shivammathur/php/php@7.0
+7. shivammathur/php/php@7.1
+8. shivammathur/php/php@7.2
+9. shivammathur/php/php@7.3
+10. shivammathur/php/php@7.4
+11. shivammathur/php/php@8.0
+12. shivammathur/php/php@8.1
+13. shivammathur/php/php@8.2
+14. shivammathur/php/php@8.3
+15. shivammathur/php/php@8.4
+```
+#### Remove
+```bash
+$ phpvm remove
+
+Choose version
+
+Choose version
+
+1. php@7.0
+2. php@7.1
+3. php@7.2
+4. php@7.4
+5. php@8.1
+```
