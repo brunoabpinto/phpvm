@@ -22,7 +22,7 @@ function phpvm()
             echo "export PATH=\"${VERSION}/bin:\$PATH\"" > ~/.phpvm_default.sh
             zsh
             break
-        ;done
+        done
         php -v
 
     elif [[ $1 == "list" ]]; then
