@@ -22,7 +22,7 @@ function phpvm()
             if ! grep -q ".phpvm/default.sh" $HOME/.bashrc; then
                 print '\n\n# PHPVM default PHP version\nif [[ -r "$HOME/.phpvm/default.sh" ]]; then\n\tsource "$HOME/.phpvm/default.sh"\nfi' >> $HOME/.bashrc
             fi
-            print "export PATH=\"${VERSION}/bin:\$PATH\"" > $HOME/.phpvm/default.sh
+            print "export PATH=\"${VERSION}/bin:\$PATH\"" > $HOME/phpvm/default.sh
             zsh
             break
         done
