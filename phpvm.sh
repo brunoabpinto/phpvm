@@ -11,7 +11,7 @@ function phpvm()
         for VERSION in /opt/homebrew/opt/php@$2*; do
             export PATH="$VERSION/bin:$PATH"
             break
-        ;done
+        done
         php -v
 
     elif [[ $1 == "default" ]]; then
