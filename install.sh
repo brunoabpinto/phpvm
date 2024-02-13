@@ -10,7 +10,7 @@ if [ -f "$HOME/.bashrc" ]; then
     if ! grep -q ".phpvm.sh" $HOME/.bashrc; then
         printf  "\n\n#PHPVM source\nif [[ -r \"$HOME/phpvm/phpvm.sh\" ]];then\n\tsource \"$HOME/phpvm/phpvm.sh\"\nfi"  >>  $HOME/.bashrc
     else
-        echo 'PHPVM already installed in .zshrc. Skipping'
+        echo 'PHPVM already installed in .bashrc. Skipping'
     fi
 fi
 
