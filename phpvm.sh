@@ -19,7 +19,7 @@ function phpvm()
 
     elif [[ $1 == "default" ]]; then
         for VERSION in /opt/homebrew/opt/php@$2*; do
-            print "export PATH=\"${VERSION}/bin:\$PATH\"" > $HOME/phpvm/default.sh
+            printf "export PATH=\"${VERSION}/bin:\$PATH\"" > $HOME/phpvm/default.sh
             zsh
             break
         done
